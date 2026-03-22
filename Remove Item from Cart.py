@@ -31,10 +31,10 @@ def negative_login_test(driver, wait):
     )))
 
     email.clear()
-    email.send_keys("alisha.d@ifullah.com")
+    email.send_keys("your email")
 
     password.clear()
-    password.send_keys("alisha12")
+    password.send_keys("your password")
     password.send_keys(Keys.RETURN)
 
     wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
